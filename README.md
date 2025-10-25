@@ -1,26 +1,20 @@
 # RMwork
 用于存储RM招新培训的任务代码
 ```
-│  README.md
-│
-├─week1
-│  │  signup.c  #签到题
-│  │  signup.exe
-│  │  video     #签到题演示视频
-│  │
-│  └─.vscode
-│          tasks.json
-│
-└─week2
-    │  GPIO.c   #GPIO缺省配置
-    │  GPIOvideo #GPIO缺省配置演示视频
-    │  Helloworld.c #Helloworld
-    │  Helloworldvideo #helloworld演示视频
-    │  IIC.c #软件模拟IIC
-    │  RM.c
-    │  RM.h
-    │
-    └─.vscode
-            launch.json
-            tasks.json
+`-- RMwork
+    |-- README.md
+    |-- week1
+    |   `-- signup  #签到题
+    |-- week2
+    |   |-- GPIO    #GPIO缺省配置
+    |   |-- HelloWorld  #HelloWorld
+    |   `-- IIC #IIC
+    `-- week3
+        |-- Interrupt   #中断
+        |-- InterruptVideo.mp4 #中断演示视频
+        |-- Key #按键点灯
+        |-- KeyVideo.mp4 #按键点灯视频
+        |-- PWMMoter #PWM电机控制和速度读取
+        `-- PWMMotorVideo.mp4 #PWM电机控制和速度读取视频
+
 ```
