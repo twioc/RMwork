@@ -65,7 +65,7 @@ __weak void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
 		static short CurrentCount = 0;
 		CurrentCount = EncoderRead();
 		encoder_speed = (CurrentCount - LastCount);
-		motor_rps = (float)encoder_speed / (GearRatio * EncoderPPR);
+		motor_rps = (float)encoder_speed / (GearRatio * EncoderPPR * 4);
 		LastCount = CurrentCount;
 	}
 }
@@ -112,7 +112,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  volatile float dummy = motor_rps;
+	  volatile float dummy = motor_rps; //用于检测motor_rps
 	  HAL_Delay(100);
     /* USER CODE END WHILE */
 

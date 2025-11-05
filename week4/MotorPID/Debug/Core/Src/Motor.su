@@ -1,0 +1,4 @@
+../Core/Src/Motor.c:11:6:Motor_Init	8	static
+../Core/Src/Motor.c:15:20:SetInPWM	16	static
+../Core/Src/Motor.c:19:6:MotorForward	16	static
+../Core/Src/Motor.c:29:6:MotorBackward	16	static
