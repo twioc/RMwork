@@ -2,6 +2,9 @@
 用于存储RM招新培训的任务代码
 ```
 |-- README.md
+|-- Hardware
+|   |               `-- Hardware.docx #问题回答
+|   |               `-- ProPrj_RMwork_2025-11-14.epro #PCB
 |-- week1
 |   `-- signup #签到题
 |-- week2
